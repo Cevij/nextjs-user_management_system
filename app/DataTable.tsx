@@ -10,7 +10,7 @@ import { STATUS } from "./Model/StatusEnum"
 export function DataTable({
     columns,
     data
-}: {columns: any[], data: any[]} ) {
+}: {columns: any[], data: Lead[]} ) {
 
     return (
         <Table aria-label="Example table with dynamic content">
